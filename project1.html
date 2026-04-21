@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple To-Do List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <h1 class="logo">Katherine Clark</h1>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+    <!--  HERO -->
+    <section class="hero">
+      <h2>Simple To-Do List</h2>
+      <img
+        class="project-img"
+        src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=400&q=80"
+        alt="To do list"
+      />
+    </section>
+
+    <!--  CARD CONTENT -->
+    <section class="section">
+      <div class="card">
+        <h3>Project Overview</h3>
+
+        <p>
+          A task management app that allows users to add, remove, and clear
+          tasks. Built using JavaScript to practice DOM manipulation and event
+          handling.
+        </p>
+
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+
+        <div class="card-links">
+          <a
+            href="https://katieforge.github.io/task-slayer/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live Demo
+          </a>
+          <br />
+          <a
+            href="https://github.com/KaTieForge/task-slayer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Source
+          </a>
+        </div>
+
+        <!-- BACK BUTTON -->
+        <br />
+        <a href="index.html" class="back-link">Back to Portfolio</a>
+      </div>
+    </section>
+    <script src="scripts.js"></script>
+  </body>
+</html>
