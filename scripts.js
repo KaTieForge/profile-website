@@ -13,3 +13,17 @@ document.addEventListener("click", (e) => {
     navLinks.classList.remove("active");
   }
 });
+
+//Set footer date
+const setFooterDate = () => {
+  const today = new Date();
+  document.getElementById("footerDate").textContent =
+    "Last updated: " +
+    today.toLocaleDateString("en-US", {
+      month: "long",
+      day: "numeric",
+      year: "numeric",
+    });
+};
+
+setFooterDate();
