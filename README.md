@@ -1,3 +1,6 @@
+Katherine Clark
+Demonstration of deploying website to github pages.
+
 # Profile Website
 
 ## Purpose
