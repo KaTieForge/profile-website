@@ -159,6 +159,12 @@ footer {
   color: white;
 }
 
+.deploy-note {
+  font-size: 0.8rem;
+  color: #bbb;
+  margin-top: 10px;
+}
+
 /* ===== Responsive (Mobile) ===== */
 @media (max-width: 768px) {
   .hamburger {
